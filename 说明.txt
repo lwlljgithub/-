@@ -1,0 +1,10 @@
+E:\autobak 路径不可修改，如果修改，则需要修改windows计划任务和deldmp.bat
+文件
+在windows计划任务中加入dbbkup_AM.bat 批处理命令或者dbbkup_PM.bat
+可用来进行自动备份数据库，生成的备份文件在当前目录。
+
+现在已经将 dbbkup_AM.bat加入到中午十二点半的windows计划任务
+将dbbkup_PM.bat加入到下午六点半的windows计划任务
+
+
+deldmp.bat是用来删除七天之前的备份数据 已经加入到中午两点的windows计划任务
